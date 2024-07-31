@@ -1,0 +1,102 @@
+package java8;
+
+import java.util.InputMismatchException;
+import java.util.Optional;
+/*                              // of method
+public class Optionallclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String name="hello";
+		Optional op=Optional.of("hello");
+		System.out.println(op);
+		
+	}
+
+}
+*/
+
+/*                               // ofNullable method
+public class Optionallclass{
+	public static void main(String[] args) {
+		String name="hello";
+		Optional op=Optional.ofNullable(null);
+		System.out.println(op);
+	}
+}
+
+*/
+
+ /*                           // isPresent method
+public class Optionallclass{
+	public static void main(String[] args) {
+		String name="hello";
+		Optional op=Optional.ofNullable("hello");
+		System.out.println(op.isPresent());
+	}
+}
+
+*/
+
+/*                            // ifPresent method
+public class Optionallclass {
+	
+	public static void main(String[] args) {
+		
+		String name="hello";
+		
+		Optional op=Optional.ofNullable(name);
+		
+		op.ifPresent((c)-> System.out.println(c));
+		
+	}
+
+}
+
+*/
+
+/*                            // orElse method
+public class Optionallclass{
+	public static void main(String[] args) {
+		String name="hello";
+		Optional op=Optional.ofNullable(null);
+		System.out.println(op.orElse("nothing"));
+	}
+}
+
+*/
+
+/*                             // orElseGet method
+public class Optionallclass {
+	
+	public static void main(String[] args) {
+		
+	      Optional op=Optional.ofNullable(null);
+	   System.out.println(op.orElseGet(()->op.of("hello")));
+	 }
+	}
+		
+*/
+
+/*                            // orElseThrow method
+public class Optionallclass{
+	public static void main(String[] args) throws Throwable {
+		String name="hello";
+		Optional op=Optional.ofNullable(null);
+		System.out.println(op.orElseThrow(InputMismatchException::new));
+	}
+}
+
+*/
+
+/*                            // orElseThrow no parameter method
+public class Optionallclass{
+	public static void main(String[] args) {
+		String name="hello";
+		Optional op=Optional.ofNullable(null);
+		System.out.println(op.orElseThrow());
+	}
+}
+
+*/
